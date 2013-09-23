@@ -1,0 +1,81 @@
+<html>
+
+<head>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>
+	<script type="text/javascript" src="TicTacToe.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<style type="text/css">
+
+		h1 {
+			margin-bottom: 30px;
+		}
+
+		body {
+			padding: 100px;
+		}
+
+		.grid {
+			height: 50px;
+			width: 50px;
+			background-color: #eee;
+			border: 1px solid black;
+			display: inline-block;
+		}
+
+		#Username {
+			height: 30px;
+			margin: 0;
+		}
+
+	</style>
+
+
+</head>
+<body>
+	<h1>Welcome to Javascript TicTacToe</h1>
+
+	<div id="getUsername">
+		<form>
+			<fieldset>
+				<label>What's your name?</label>
+				<input id="Username" type="text" />
+				<button id="setUsername" type="submit" class="btn">Start</button>
+			</fieldset>
+		</form>
+	</div>
+
+	<div id="startGame">
+		<p id="Message"></p>
+	</div>
+
+	<br />
+
+	<div id="0-0" class="grid">
+	</div>
+	<div id="0-1" class="grid">
+	</div>
+	<div id="0-2" class="grid">
+	</div>
+
+	<br />
+
+	<div id="1-0" class="grid">
+	</div>
+	<div id="1-1" class="grid">
+	</div>
+	<div id="1-2" class="grid">
+	</div>
+
+	<br />
+
+	<div id="2-0" class="grid">
+	</div>
+	<div id="2-1" class="grid">
+	</div>
+	<div id="2-2" class="grid">
+	</div>
+
+
+</body>
+</html>
